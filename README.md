@@ -1,16 +1,7 @@
 # advnce_flutter_daily_task
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Light & Dark Theme
+<p>
+  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/9746981f-5f77-490d-8bdf-4078db995367"  height = 25% width = 35%>
+  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/374a762c-3f08-4f75-aaa8-03e2c5be647e" height = 25% width = 35%>
+</p>
