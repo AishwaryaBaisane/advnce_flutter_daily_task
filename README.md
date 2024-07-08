@@ -39,8 +39,8 @@ onTap: () {
 ```
 ## Light & Dark Theme :
 <p>
-  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/9746981f-5f77-490d-8bdf-4078db995367"  height = 20% width = 35%>
-  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/374a762c-3f08-4f75-aaa8-03e2c5be647e" height = 20% width = 35%>
+  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/9746981f-5f77-490d-8bdf-4078db995367"  height = 20% width = 30%>
+  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/374a762c-3f08-4f75-aaa8-03e2c5be647e" height = 20% width = 30%>
 </p>
 
 ## Stepper : 
@@ -51,7 +51,7 @@ onTap: () {
 
 
 <p>
-  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/351ea6fb-0552-4757-a0e8-c6d294f90e5c"  height = 20% width = 35%>
-  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/2755dd4b-3f00-48e2-97d3-865bab289967" height = 20% width = 35%>
+  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/351ea6fb-0552-4757-a0e8-c6d294f90e5c"  height = 20% width = 30%>
+  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/2755dd4b-3f00-48e2-97d3-865bab289967" height = 20% width = 30%>
 </p>
 
