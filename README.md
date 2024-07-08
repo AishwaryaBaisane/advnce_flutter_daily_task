@@ -44,7 +44,8 @@ onTap: () {
 
 ## Stepper 
 
-The Stepper Widget in Flutter is a versatile tool that plays a crucial role in enhancing user experience within mobile applications. It provides an intuitive way to guide users through a multi-step process, allowing developers to create interactive and user-friendly interfaces.
+• The Stepper Widget in Flutter is a versatile tool that plays a crucial role in enhancing user experience within mobile applications.
+• It provides an intuitive way to guide users through a multi-step process, allowing developers to create interactive and user-friendly interfaces.
 
 
 <p>
