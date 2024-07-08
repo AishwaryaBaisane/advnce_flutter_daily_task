@@ -79,13 +79,11 @@ class _StepperPage2State extends State<StepperPage2> {
                       ),
                       // hintText: 'Email',
                       border: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.black45, width: 2),
+                        borderSide: BorderSide(color: Colors.blue),
                         borderRadius: BorderRadius.circular(10),
                       ),
                       hintStyle: TextStyle(color: Colors.black45),
-                      focusedBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
+
                     ),
                   ),
                 ),
@@ -115,11 +113,9 @@ class _StepperPage2State extends State<StepperPage2> {
                           borderSide:
                               BorderSide(color: Colors.black45, width: 2),
                           borderRadius: BorderRadius.circular(10),
-                          gapPadding: 59),
+                         ),
                       // hintStyle: TextStyle(color: Colors.black45),
-                      focusedBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
+
                     ),
                   ),
                 ),
