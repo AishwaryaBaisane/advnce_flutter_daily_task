@@ -83,7 +83,7 @@ onTap: () {
    - Consumer   
 
 
-### ChangeNotifier
+### ChangeNotifier :-
 
  - ChangeNotifier is a simple class, which provides change notification to its listeners.
 - It is easy to understand, implement, and optimized for a small number of listeners.
@@ -91,14 +91,14 @@ onTap: () {
 - In this, we only use the notifyListener() method to inform the listeners.
 
 
-### ChangeNotifierProvider
+### ChangeNotifierProvider :-
 
 - ChangeNotifierProvider is the widget that provides an instance of a ChangeNotifier to its descendants. 
 - It comes from the provider package. 
 - The following code snippets help to understand the concept of ChangeNotifierProvider.
 
 
-### Consumer
+### Consumer :-
 
 - It is a type of provider that does not do any fancy work. 
 - It just calls the provider in a new widget and delegates its build implementation to the builder. 
