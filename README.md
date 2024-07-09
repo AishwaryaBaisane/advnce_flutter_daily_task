@@ -56,6 +56,7 @@ onTap: () {
 </p>
 
 
+
 ## State :-
 - A state is information that can be read when the widget is built and might change or modified over a lifetime of the app. 
 - If you want to change your widget, you need to update the state object, which can be done by using the setState() function available for Stateful widgets.
@@ -91,18 +92,65 @@ onTap: () {
 - In this, we only use the notifyListener() method to inform the listeners.
 
 
+```dart
+
+
+class Counter with ChangeNotifier {  
+  int _counter;  
+  
+  Counter(this._counter);  
+  
+  getCounter() => _counter;  
+  setCounter(int counter) => _counter = counter;  
+  
+  void increment() {  
+    _counter++;  
+    notifyListeners();  
+  }  
+  
+  void decrement() {  
+    _counter--;  
+    notifyListeners();  
+  }  
+}  
+
+
+
+```
+
 ### ChangeNotifierProvider :-
 
 - ChangeNotifierProvider is the widget that provides an instance of a ChangeNotifier to its descendants. 
 - It comes from the provider package. 
 - The following code snippets help to understand the concept of ChangeNotifierProvider.
 
+```dart
+void main() {  
+  runApp(  
+    MultiProvider(  
+      providers: [  
+        ChangeNotifierProvider(builder: (context) => Counter()),  
+        Provider(builder: (context) => SomeOtherClass()),  
+      ],  
+      child: MyApp(),  
+    ),  
+  );  
+}  
 
-### Consumer :-
+```
+### Consumer
 
 - It is a type of provider that does not do any fancy work. 
 - It just calls the provider in a new widget and delegates its build implementation to the builder. 
 - The following code explains it more clearly.
+
+```dart
+return Consumer<Counter>(  
+  builder: (context, count, child) {  
+    return Text("Total price: ${count.total}");  
+  },  
+);  
+```
 
 
 
