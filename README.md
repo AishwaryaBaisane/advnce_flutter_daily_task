@@ -153,6 +153,6 @@ return Consumer<Counter>(
 ```
 ### Provider Tree :-
 <p>
-  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/f5203ef2-bca4-44a0-b0f6-48b06f506269"  height = 40% width = 80%>
+  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/40f7eaa9-83b6-49d8-963f-7a0ef8bd4c18"  height = 40% width = 80%>
 </p>
 
