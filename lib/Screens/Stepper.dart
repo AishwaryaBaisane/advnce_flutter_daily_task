@@ -44,7 +44,10 @@ class _StepperScreenState extends State<StepperScreen> {
             },
             steps: <Step>[
               Step(
-                title: const Text('Account'),
+                title: const Text(
+                  'Account',
+                  style: TextStyle(fontWeight: FontWeight.w500),
+                ),
                 content: TextField(
                   decoration: InputDecoration(
                       hintText: 'Enter your Account Number',
@@ -54,7 +57,10 @@ class _StepperScreenState extends State<StepperScreen> {
                 ),
               ),
               const Step(
-                title: Text('Adress'),
+                title: Text(
+                  'Address',
+                  style: TextStyle(fontWeight: FontWeight.w500),
+                ),
                 content: TextField(
                   decoration: InputDecoration(
                     hintText: 'Enter your Account Address',
@@ -65,7 +71,10 @@ class _StepperScreenState extends State<StepperScreen> {
                 ),
               ),
               Step(
-                title: Text('Mobile Number'),
+                title: Text(
+                  'Mobile Number',
+                  style: TextStyle(fontWeight: FontWeight.w500),
+                ),
                 content: TextField(
                   decoration: InputDecoration(
                     hintText: 'Enter your Mobile Number',
@@ -84,10 +93,11 @@ class _StepperScreenState extends State<StepperScreen> {
         shape: CircleBorder(),
         onPressed: () {},
         child: Center(
-          child: GestureDetector(onTap: () {
-            Navigator.of(context).pushNamed('/Page');
-            print('hiii');
-          },
+          child: GestureDetector(
+            onTap: () {
+              Navigator.of(context).pushNamed('/Page');
+              print('hiii');
+            },
             child: Icon(
               Icons.menu,
               color: Colors.white,
