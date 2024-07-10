@@ -156,3 +156,12 @@ return Consumer<Counter>(
   <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/40f7eaa9-83b6-49d8-963f-7a0ef8bd4c18"  height = 40% width = 80%>
 </p>
 
+### 1.4 Provider & Change Theme using Provider :-
+
+<p>
+  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/edc40cf3-ab57-4429-a372-161f04b44560"  height = 20% width = 30%>
+  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/3e16e8f5-cf70-494e-9ff7-2ef15790bcde" height = 20% width = 30%>
+</p>
+
+[ThemeMode.webm](https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1cdb69fe-0872-4a91-a4c5-a4eb8bbf9627)
+
