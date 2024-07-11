@@ -2,6 +2,7 @@ import 'package:advnce_flutter_daily_task/Screens/StepperPage.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../utils/global/global.dart';
 import '../../utils/globalList/globalList.dart';
 import '../model/quoteModel.dart';
 import '../provider/provider.dart';
@@ -104,7 +105,3 @@ class QuotePage extends StatelessWidget {
   }
 }
 
-var txtQuote = TextEditingController();
-var txtAuthor = TextEditingController();
-GlobalKey<FormState> formKey = GlobalKey();
-QuotesModel quotesModel = QuotesModel();
