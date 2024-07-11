@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../utils/global/global.dart';
-import '../../utils/globalList/globalList.dart';
+
+import '../../../utils/global/global.dart';
+import '../../../utils/globalList/globalList.dart';
 import '../view/quote_app.dart';
 
 class QuoteProvider extends ChangeNotifier {

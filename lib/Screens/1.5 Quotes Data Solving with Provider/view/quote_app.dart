@@ -2,8 +2,8 @@ import 'package:advnce_flutter_daily_task/Screens/StepperPage.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../utils/global/global.dart';
-import '../../utils/globalList/globalList.dart';
+import '../../../utils/global/global.dart';
+import '../../../utils/globalList/globalList.dart';
 import '../model/quoteModel.dart';
 import '../provider/provider.dart';
 
@@ -57,7 +57,7 @@ class QuotePage extends StatelessWidget {
                   child: TextField(
                     controller: txtAuthor,
                     decoration: InputDecoration(
-                      hintText: 'authore',
+                      hintText: 'Author',
                       border: OutlineInputBorder(),
                     ),
                   ),
