@@ -165,3 +165,12 @@ return Consumer<Counter>(
 
 [ThemeMode.webm](https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1cdb69fe-0872-4a91-a4c5-a4eb8bbf9627)
 
+
+
+### 1.5 Quotes Data Solving with Provider :-
+
+<p>
+  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/6423687c-70b3-4a67-8973-2eab6f7ff6f5"  height = 20% width = 30%>
+  <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/25571fc0-dbc1-4e9c-848d-e7ce78e1181b" height = 20% width = 30%>
+</p>
+
