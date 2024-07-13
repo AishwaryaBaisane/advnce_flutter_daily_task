@@ -15,8 +15,3 @@ class QuotesModel {
     }
   }
 }
-// QuoteModal.toList({required List l1}){
-//     for(int i = 0; i<l1.length; i++){
-//       quoteModelList.add(QuoteModal.fromQuoteList(l1[i]));
-//     }
-//   }
