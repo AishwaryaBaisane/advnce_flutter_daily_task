@@ -7,7 +7,7 @@ class OnetimeScreen extends ChangeNotifier {
 
   Future<void> setMethod(bool isTrue) async {
     sharedPreferences = await SharedPreferences.getInstance();
-    sharedPreferences.setBool('theme', isTrue);
+    sharedPreferences.setBool('home', isTrue);
     notifyListeners();
   }
 
@@ -19,7 +19,7 @@ class OnetimeScreen extends ChangeNotifier {
 
   Future<void> getMethod() async {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
-    isTrue = sharedPreferences.getBool('theme') ?? false;
+    isTrue = sharedPreferences.getBool('home') ?? false;
     notifyListeners();
   }
 

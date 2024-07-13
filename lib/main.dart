@@ -14,16 +14,16 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
   bool theme = sharedPreferences.getBool('theme') ?? false;
-  isHomed = sharedPreferences.getBool('theme') ?? false;
+  isHomed = sharedPreferences.getBool('home') ?? false;
   theme1 = isHomed;
   runApp(
     MultiProvider(
       providers: [
         ChangeNotifierProvider(
-          create: (context) => ThemeChange(isHomed),
+          create: (context) => ThemeChange(theme),
         ),
         ChangeNotifierProvider(
-          create: (context) => OnetimeScreen(theme),
+          create: (context) => OnetimeScreen(isHomed),
         ),
       ],
       builder: (context, child) => MyApp(),
@@ -69,7 +69,9 @@ class MyApp extends StatelessWidget {
         ),
       ),
       themeMode: ThemeChangeTrue.isDark ? ThemeMode.dark : ThemeMode.light,
-      home: (theme1) ? OnetimePage() : HomeScreen(),
+      home: Provider.of<OnetimeScreen>(context).isTrue
+          ? OnetimePage()
+          : HomeScreen(),
     );
   }
 }
