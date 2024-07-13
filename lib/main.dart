@@ -15,6 +15,7 @@ Future<void> main() async {
   SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
   bool theme = sharedPreferences.getBool('theme') ?? false;
   isHomed = sharedPreferences.getBool('theme') ?? false;
+  theme1 = isHomed;
   runApp(
     MultiProvider(
       providers: [
@@ -57,7 +58,7 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData(
         colorScheme: const ColorScheme(
           brightness: Brightness.dark,
-           primary: Colors.amber,
+          primary: Colors.amber,
           onPrimary: Colors.blue,
           secondary: Colors.pink,
           onSecondary: Colors.yellowAccent,
@@ -68,7 +69,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       themeMode: ThemeChangeTrue.isDark ? ThemeMode.dark : ThemeMode.light,
-      home: (!theme1) ? HomeScreen() : OnetimePage(),
+      home: (theme1) ? OnetimePage() : HomeScreen(),
     );
   }
 }
