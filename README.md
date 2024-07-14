@@ -181,10 +181,10 @@ https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1
 ### 1.5 One Time Intro Screen in Flutter  :-
 
 <p>
-  <img src = "https://github.com/user-attachments/assets/02448767-d5c2-407d-8370-920c328426e9"  height = 15% width = 20%>
-  <img src = "https://github.com/user-attachments/assets/e7155f33-6758-4436-a107-ca97bf000958" height = 15% width = 20%>
- <img src = "https://github.com/user-attachments/assets/0dc93e92-fb87-44c4-bf9e-2e418e54b809" height = 15% width = 20%>
- <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/edc40cf3-ab57-4429-a372-161f04b44560" height = 15% width = 20%>
+  <img src = "https://github.com/user-attachments/assets/02448767-d5c2-407d-8370-920c328426e9"  height = 15% width = 25%>
+  <img src = "https://github.com/user-attachments/assets/e7155f33-6758-4436-a107-ca97bf000958" height = 15% width = 25%>
+ <img src = "https://github.com/user-attachments/assets/0dc93e92-fb87-44c4-bf9e-2e418e54b809" height = 15% width = 25%>
+ <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/edc40cf3-ab57-4429-a372-161f04b44560" height = 15% width = 25%>
 </p>
 
 
