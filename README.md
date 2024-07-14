@@ -202,7 +202,7 @@ await prefs.setStringList('items', <String>['Earth', 'Moon', 'Sun']);
 ```
 
 
-### 1.5 One Time Intro Screen in Flutter(Using of Shared preferences)  :-
+### 1.5 One Time Intro Screen in Flutter(Using Shared preferences)  :-
 
 <p>
   <img src = "https://github.com/user-attachments/assets/02448767-d5c2-407d-8370-920c328426e9"  height = 15% width = 22%>
