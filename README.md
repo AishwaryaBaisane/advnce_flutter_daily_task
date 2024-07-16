@@ -1,13 +1,13 @@
 # advnce_flutter_daily_task
 
-## Theme :
+## Theme :-
 
 In Flutter, themes are used to control the appearance of your app.Flutter provides two built-in themes: LightTheme and DarkTheme. You can further customize these themes or create your own custom themes.
 
 
 This Flutter project demonstrates how to implement theme switching between light and dark themes.
 
-### Example :
+### Example :-
 
 
 
@@ -43,7 +43,7 @@ onTap: () {
   <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/374a762c-3f08-4f75-aaa8-03e2c5be647e" height = 20% width = 30%>
 </p>
 
-## Stepper : 
+## Stepper :- 
 
 • The Stepper Widget in Flutter is a versatile tool that plays a crucial role in enhancing user experience within mobile applications.
 
@@ -177,4 +177,42 @@ return Consumer<Counter>(
 
 
 https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1bb88f01-12d5-4bd2-ae02-784c888050eb
+
+
+## Shared preferences :-
+- SharedPreferences provides a persistent storage location for small data.
+- This data remains intact across app restarts, making it perfect for scenarios where you need to save user choices or maintain the state of an app.
+
+### Examples :-
+
+```dart
+// Obtain shared preferences.
+final SharedPreferences prefs = await SharedPreferences.getInstance();
+
+// Save an integer value to 'counter' key.
+await prefs.setInt('counter', 10);
+// Save an boolean value to 'repeat' key.
+await prefs.setBool('repeat', true);
+// Save an double value to 'decimal' key.
+await prefs.setDouble('decimal', 1.5);
+// Save an String value to 'action' key.
+await prefs.setString('action', 'Start');
+// Save an list of strings to 'items' key.
+await prefs.setStringList('items', <String>['Earth', 'Moon', 'Sun']); 
+```
+
+
+### 1.5 One Time Intro Screen in Flutter(Using Shared preferences)  :-
+
+<p>
+  <img src = "https://github.com/user-attachments/assets/02448767-d5c2-407d-8370-920c328426e9"  height = 15% width = 22%>
+  <img src = "https://github.com/user-attachments/assets/e7155f33-6758-4436-a107-ca97bf000958" height = 15% width = 22%>
+ <img src = "https://github.com/user-attachments/assets/0dc93e92-fb87-44c4-bf9e-2e418e54b809" height = 15% width = 22%>
+ <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/edc40cf3-ab57-4429-a372-161f04b44560" height = 15% width = 22%>
+</p>
+
+
+https://github.com/user-attachments/assets/91c92e67-06e0-4c74-8603-5790a7e53685
+
+
 
