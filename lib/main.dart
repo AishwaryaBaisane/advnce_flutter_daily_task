@@ -23,6 +23,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
       create: (context) => ContactPageProvider(),
+
+
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         home: ContactPage(),
