@@ -200,7 +200,7 @@ class ContactPage extends StatelessWidget {
                       SizedBox(
                         width: width * 0.045,
                       ),
-                      Text(
+                      const Text(
                         'haikuzen_designs',
                         style: TextStyle(
                           fontSize: 23,
