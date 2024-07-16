@@ -12,6 +12,8 @@ import 'Screens/1.6 Contact Us Page With Interaction/view/homepage.dart';
 bool theme1 = false;
 bool isHomed = false;
 
+
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
