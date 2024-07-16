@@ -163,9 +163,9 @@ return Consumer<Counter>(
   <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/3e16e8f5-cf70-494e-9ff7-2ef15790bcde" height = 20% width = 30%>
 </p>
 
-[ThemeMode.webm](https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1cdb69fe-0872-4a91-a4c5-a4eb8bbf9627)
-
-
+<div align="center">
+<video height="550" src="https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1cdb69fe-0872-4a91-a4c5-a4eb8bbf9627">
+</div>
 
 ### 1.5 Quotes Data Solving with Provider :-
 
@@ -175,9 +175,9 @@ return Consumer<Counter>(
 </p>
 
 
-
-https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1bb88f01-12d5-4bd2-ae02-784c888050eb
-
+<div align="center">
+<video height="550" src="https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1bb88f01-12d5-4bd2-ae02-784c888050eb">
+</div>
 
 ## Shared preferences :-
 - SharedPreferences provides a persistent storage location for small data.
