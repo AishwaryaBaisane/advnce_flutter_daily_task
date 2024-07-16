@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class OnetimeScreen extends ChangeNotifier {
-  late SharedPreferences sharedPreferences;
   bool isTrue = false;
+  late SharedPreferences sharedPreferences;
 
   Future<void> setMethod(bool isTrue) async {
     sharedPreferences = await SharedPreferences.getInstance();

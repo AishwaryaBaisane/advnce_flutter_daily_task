@@ -49,8 +49,8 @@ class OnetimePage extends StatelessWidget {
             SizedBox(
               height: height * 0.03,
             ),
-            Text(
-              '  Lorem ipsum dolor sit amet,consetetur\nsadipscing elitr,sed diam nonumy eirmod\n \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ttempor.',
+            Text(textAlign: TextAlign.center,
+              '  Lorem ipsum dolor sit amet,consetetur\nsadipscing elitr,sed diam nonumy eirmod\ntempor.',
               style: TextStyle(fontSize: 20, color: Colors.black45),
             ),
             SizedBox(height: height * 0.1,),
