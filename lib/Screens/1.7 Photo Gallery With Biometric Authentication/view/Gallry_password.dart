@@ -59,6 +59,7 @@ class GalleryBiometricAuthentication extends StatelessWidget {
             SizedBox(height: height * 0.02),
             Image(image: AssetImage('assets/img/gallary2.jpg'))
           ],
+
         ),
       ),
     );
