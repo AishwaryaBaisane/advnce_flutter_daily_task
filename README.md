@@ -226,3 +226,9 @@ await prefs.setStringList('items', <String>['Earth', 'Moon', 'Sun']);
 <div align="center">
 <video height="550" src="https://github.com/user-attachments/assets/05f3c167-7db5-49eb-88eb-39ec32b69972">
 </div>
+ 
+### 1.7 Photo Gallery With Biometric Authentication :-
+
+
+https://github.com/user-attachments/assets/99d870ab-abfa-4aa8-a979-7b20e5d3f0af
+
