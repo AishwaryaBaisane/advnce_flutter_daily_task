@@ -17,7 +17,7 @@ class GalleryScreen2 extends StatelessWidget {
               width: width * 0.9 + 60,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/img/gallary8.jpeg'),
+                  image: AssetImage('assets/img/im.jpeg'),
                   fit: BoxFit.fill,
                 ),
               ),
