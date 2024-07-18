@@ -163,9 +163,9 @@ return Consumer<Counter>(
   <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/3e16e8f5-cf70-494e-9ff7-2ef15790bcde" height = 20% width = 30%>
 </p>
 
-[ThemeMode.webm](https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1cdb69fe-0872-4a91-a4c5-a4eb8bbf9627)
-
-
+<div align="center">
+<video height="550" src="https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1cdb69fe-0872-4a91-a4c5-a4eb8bbf9627">
+</div>
 
 ### 1.5 Quotes Data Solving with Provider :-
 
@@ -175,9 +175,9 @@ return Consumer<Counter>(
 </p>
 
 
-
-https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1bb88f01-12d5-4bd2-ae02-784c888050eb
-
+<div align="center">
+<video height="550" src="https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1bb88f01-12d5-4bd2-ae02-784c888050eb">
+</div>
 
 ## Shared preferences :-
 - SharedPreferences provides a persistent storage location for small data.
@@ -212,7 +212,17 @@ await prefs.setStringList('items', <String>['Earth', 'Moon', 'Sun']);
 </p>
 
 
-https://github.com/user-attachments/assets/91c92e67-06e0-4c74-8603-5790a7e53685
 
+<div align="center">
+<video height="550" src="https://github.com/user-attachments/assets/91c92e67-06e0-4c74-8603-5790a7e53685">
+</div>
 
+### 1.6 Contact Us Page With Interaction :-
 
+<p>
+  <img src = "https://github.com/user-attachments/assets/baae8558-8692-406b-9dd5-d25d48759d22"  height = 20% width = 30%>
+</p>
+
+<div align="center">
+<video height="550" src="https://github.com/user-attachments/assets/05f3c167-7db5-49eb-88eb-39ec32b69972">
+</div>
