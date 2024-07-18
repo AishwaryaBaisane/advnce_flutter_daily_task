@@ -118,10 +118,10 @@ List headings = [
   'Instagram',
   'Download',
   'College',
+  'Me',
   'Nature',
-  'Animals',
-  'Birds',
-  'Car',
+  'Friends',
+  'lack',
 ];
 
 List galleryImages = [
