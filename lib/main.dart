@@ -8,6 +8,8 @@ import 'Screens/1.5 One Time Intro Screen in Flutter/view/OneTime_Page.dart';
 import 'Screens/1.5 Quotes Data Solving with Provider/view/quote_app.dart';
 import 'Screens/1.6 Contact Us Page With Interaction/provider/provider.dart';
 import 'Screens/1.6 Contact Us Page With Interaction/view/homepage.dart';
+import 'Screens/1.7 Photo Gallery With Biometric Authentication/Provider/Photo_Gallary.dart';
+import 'Screens/1.7 Photo Gallery With Biometric Authentication/view/Gallry_password.dart';
 
 bool theme1 = false;
 bool isHomed = false;
@@ -32,11 +34,16 @@ Future<void> main() async {
         ChangeNotifierProvider(
           create: (context) => ContactPageProvider(),
         ),
+        ChangeNotifierProvider(
+          create: (context) => GalleryProvider(),
+        ),
       ],
       builder: (context, child) => MyApp(),
     ),
   );
 }
+
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -71,7 +78,10 @@ class MyApp extends StatelessWidget {
           onSurface: Colors.white,
         ),
       ),
-      home: ContactPage(),
+      // home: ContactPage(),
+      routes: {
+        '/' : (context) =>GalleryBiometricAuthentication(),
+    },
     );
   }
 }

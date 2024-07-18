@@ -187,24 +187,24 @@ class ContactPage extends StatelessWidget {
                       SizedBox(
                         width: width * 0.06,
                       ),
-                      InkWell(
-                        onTap: () {
-                          contactPageProvider.instaLauncher();
-                        },
-                        child: Image(
-                          image: AssetImage('assets/img/insta.jpg'),
-                          height: height * 0.1,
-                          width: width * 0.16,
-                        ),
+                      Image(
+                        image: AssetImage('assets/img/insta.jpg'),
+                        height: height * 0.1,
+                        width: width * 0.16,
                       ),
                       SizedBox(
                         width: width * 0.045,
                       ),
-                      const Text(
-                        'haikuzen_designs',
-                        style: TextStyle(
-                          fontSize: 23,
-                          fontWeight: FontWeight.w400,
+                      InkWell(
+                        onTap: () {
+                          contactPageProvider.instaLauncher();
+                        },
+                        child: const Text(
+                          'haikuzen_designs',
+                          style: TextStyle(
+                            fontSize: 23,
+                            fontWeight: FontWeight.w400,
+                          ),
                         ),
                       )
                     ],
