@@ -62,33 +62,3 @@ class GalleryBiometricAuthentication extends StatelessWidget {
     );
   }
 }
-
-List headings = [
-  'Camera',
-  'Family',
-  'Facebook',
-  'WhatsApp',
-  'ScreenShot',
-  'Instagram',
-  'Download',
-  'College',
-  'Nature',
-  'Animals',
-  'Birds',
-  'Car',
-];
-
-List galleryImages = [
-  'assets/images/GalleryImages/1.jpg',
-  'assets/images/GalleryImages/2.jpg',
-  'assets/images/GalleryImages/3.jpg',
-  'assets/images/GalleryImages/4.jpeg',
-  'assets/images/GalleryImages/5.jpeg',
-  'assets/images/GalleryImages/6.jpg',
-  'assets/images/GalleryImages/7.jpeg',
-  'assets/images/GalleryImages/8.jpeg',
-  'assets/images/GalleryImages/9.jpg',
-  'assets/images/GalleryImages/10.webp',
-  'assets/images/GalleryImages/11.jpg',
-  'assets/images/GalleryImages/12.jpg',
-];
