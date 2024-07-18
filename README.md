@@ -229,6 +229,21 @@ await prefs.setStringList('items', <String>['Earth', 'Moon', 'Sun']);
  
 ### 1.7 Photo Gallery With Biometric Authentication :-
 
+<p>
+  <img src = "https://github.com/user-attachments/assets/f18f1f54-5055-4b02-b5c6-0e524830ebfd"  height = 20% width = 30%>
+  <img src = "https://github.com/user-attachments/assets/44ad31b8-2780-4cf8-bd15-68f32a0c66d1"  height = 20% width = 30%>
+   <img src = "https://github.com/user-attachments/assets/e6ff33dd-d4a7-47ac-9d13-fb185955668b"  height = 20% width = 30%>
+</p>
 
-https://github.com/user-attachments/assets/99d870ab-abfa-4aa8-a979-7b20e5d3f0af
+
+<div align="center">
+<video height="550" src="https://github.com/user-attachments/assets/912cc98f-4b6b-470e-9b2e-d85f243230e6">
+</div>
+ 
+
+
+
+
+
+
 
