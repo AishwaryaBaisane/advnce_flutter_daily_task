@@ -51,6 +51,8 @@ class GalleryBiometricAuthentication extends StatelessWidget {
             ),
           ],
         ),
+
+
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
