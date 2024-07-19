@@ -223,7 +223,7 @@ await prefs.setStringList('items', <String>['Earth', 'Moon', 'Sun']);
 
 ### 1.6 Contact Us Page With Interaction :-
 
-## url_launcher Package :-
+## Url_launcher Package :-
 
 - In Flutter, url_launcher is a package that allows your app to open URLs in a browser or other apps.
 - Open Web Links: It can open web pages in the default browser.
