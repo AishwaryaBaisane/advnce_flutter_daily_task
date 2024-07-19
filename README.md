@@ -257,7 +257,7 @@ local_auth: ^2.2.0  # Replace with the latest version if available
 ​
 ```
 
-### iOS Integration :-
+### IOS Integration :-
 
 ```dart
 
