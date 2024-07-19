@@ -183,6 +183,9 @@ return Consumer<Counter>(
 <video height="550" src="https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1bb88f01-12d5-4bd2-ae02-784c888050eb">
 </div>
 
+
+### 1.5 One Time Intro Screen in Flutter(Using Shared preferences)  :-
+
 ## Shared preferences :-
 - SharedPreferences provides a persistent storage location for small data.
 - This data remains intact across app restarts, making it perfect for scenarios where you need to save user choices or maintain the state of an app.
@@ -205,8 +208,6 @@ await prefs.setString('action', 'Start');
 await prefs.setStringList('items', <String>['Earth', 'Moon', 'Sun']); 
 ```
 
-
-### 1.5 One Time Intro Screen in Flutter(Using Shared preferences)  :-
 
 <p>
   <img src = "https://github.com/user-attachments/assets/02448767-d5c2-407d-8370-920c328426e9"  height = 15% width = 22%>
