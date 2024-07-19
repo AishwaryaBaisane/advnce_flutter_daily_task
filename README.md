@@ -157,6 +157,10 @@ return Consumer<Counter>(
 </p>
 
 ### 1.4 Provider & Change Theme using Provider :-
+- The Provider package, created by Remi Rousselet, aims to handle the state as cleanly as possible.
+- In Provider, widgets listen to changes in the state and update as soon as they are notified.
+- Provider State Management, which is recommended by Google as well, mainly provides you with a central point to manage the state, and to write front-end logic.
+- A provider is a third-party library. Here, we need to understand three main concepts to use this library.
 
 <p>
   <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/edc40cf3-ab57-4429-a372-161f04b44560"  height = 20% width = 30%>
