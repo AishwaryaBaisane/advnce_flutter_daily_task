@@ -254,7 +254,8 @@ await prefs.setStringList('items', <String>['Earth', 'Moon', 'Sun']);
 ### YAML:-
 ```dart
 local_auth: ^2.2.0  # Replace with the latest version if available
-​```
+​
+```
 
 ### iOS Integration :-
 
