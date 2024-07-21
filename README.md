@@ -157,6 +157,10 @@ return Consumer<Counter>(
 </p>
 
 ### 1.4 Provider & Change Theme using Provider :-
+- The Provider package, created by Remi Rousselet, aims to handle the state as cleanly as possible.
+- In Provider, widgets listen to changes in the state and update as soon as they are notified.
+- Provider State Management, which is recommended by Google as well, mainly provides you with a central point to manage the state, and to write front-end logic.
+- A provider is a third-party library. Here, we need to understand three main concepts to use this library.
 
 <p>
   <img src = "https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/edc40cf3-ab57-4429-a372-161f04b44560"  height = 20% width = 30%>
@@ -178,6 +182,9 @@ return Consumer<Counter>(
 <div align="center">
 <video height="550" src="https://github.com/AishwaryaBaisane/advnce_flutter_daily_task/assets/149373597/1bb88f01-12d5-4bd2-ae02-784c888050eb">
 </div>
+
+
+### 1.5 One Time Intro Screen in Flutter(Using Shared preferences)  :-
 
 ## Shared preferences :-
 - SharedPreferences provides a persistent storage location for small data.
@@ -202,8 +209,6 @@ await prefs.setStringList('items', <String>['Earth', 'Moon', 'Sun']);
 ```
 
 
-### 1.5 One Time Intro Screen in Flutter(Using Shared preferences)  :-
-
 <p>
   <img src = "https://github.com/user-attachments/assets/02448767-d5c2-407d-8370-920c328426e9"  height = 15% width = 22%>
   <img src = "https://github.com/user-attachments/assets/e7155f33-6758-4436-a107-ca97bf000958" height = 15% width = 22%>
@@ -219,6 +224,14 @@ await prefs.setStringList('items', <String>['Earth', 'Moon', 'Sun']);
 
 ### 1.6 Contact Us Page With Interaction :-
 
+## Url_launcher Package :-
+
+- In Flutter, url_launcher is a package that allows your app to open URLs in a browser or other apps.
+- Open Web Links: It can open web pages in the default browser.
+- Make Phone Calls: It can dial a phone number using the phone app.
+- Send Emails: It can open the email app with a pre-filled email.
+- Send SMS: It can open the messaging app to send a text message.
+
 <p>
   <img src = "https://github.com/user-attachments/assets/baae8558-8692-406b-9dd5-d25d48759d22"  height = 20% width = 30%>
 </p>
@@ -228,7 +241,63 @@ await prefs.setStringList('items', <String>['Earth', 'Moon', 'Sun']);
 </div>
  
 ### 1.7 Photo Gallery With Biometric Authentication :-
+## **Local Authentication Package**
+
+- The `local_auth` package, provided by the Flutter team, enables you to integrate local authentication methods like fingerprint, Touch ID, Face ID, passcode, PIN, or pattern recognition into your Flutter app. - This enhances security by allowing users to authenticate themselves using their device's built-in features instead of relying solely on passwords.
+
+## Implementation Steps:
+
+### Add Dependency:
+- Open your project's pubspec.yaml file.
+- Under the dependencies section, add the following line:
+
+### YAML:-
+```dart
+local_auth: ^2.2.0  # Replace with the latest version if available
+​
+```
+
+### IOS Integration :-
+
+```dart
+
+<key>NSFaceIDUsageDescription</key>
+<string>Why is my app authenticating using face id?</string>
+
+```
+```dart
+import io.flutter.embedding.android.FlutterFragmentActivity
+
+class MainActivity : FlutterFragmentActivity() {
+// ...
+}
+```
+
+### Android Integration :-
+
+```dart
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.app">
+          
+  <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+  
+<manifest>
+```
+<p>
+  <img src = "https://github.com/user-attachments/assets/f18f1f54-5055-4b02-b5c6-0e524830ebfd"  height = 20% width = 30%>
+  <img src = "https://github.com/user-attachments/assets/44ad31b8-2780-4cf8-bd15-68f32a0c66d1"  height = 20% width = 30%>
+   <img src = "https://github.com/user-attachments/assets/e6ff33dd-d4a7-47ac-9d13-fb185955668b"  height = 20% width = 30%>
+</p>
 
 
-https://github.com/user-attachments/assets/99d870ab-abfa-4aa8-a979-7b20e5d3f0af
+<div align="center">
+<video height="550" src="https://github.com/user-attachments/assets/912cc98f-4b6b-470e-9b2e-d85f243230e6">
+</div>
+ 
+
+
+
+
+
+
 
