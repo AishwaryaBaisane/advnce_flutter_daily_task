@@ -3,7 +3,6 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../StepperPage.dart';
 import '../Provider/Photo_Gallary.dart';
 
 class GalleryBiometricAuthentication extends StatelessWidget {

@@ -1,5 +1,3 @@
-
-
 import 'dart:math';
 
 import 'package:advnce_flutter_daily_task/Screens/1.7%20Photo%20Gallery%20With%20Biometric%20Authentication/view/Gallry_screen2.dart';
@@ -8,7 +6,6 @@ import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 import 'package:local_auth/local_auth.dart';
-
 
 class GalleryProvider extends ChangeNotifier {
   final LocalAuthentication auth = LocalAuthentication();
@@ -85,4 +82,3 @@ class GalleryProvider extends ChangeNotifier {
     return a;
   }
 }
-
